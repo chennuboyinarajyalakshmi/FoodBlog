@@ -1,0 +1,101 @@
+.Home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 4rem;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.Home .left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.Home .left h1 {
+  font-size: 3rem;
+  color: #1d1d1d;
+  margin-bottom: 1rem;
+}
+
+.Home .left h5 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.Home .left button {
+  padding: 0.7rem 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Home .left button:hover {
+  background-color: #388e3c;
+}
+
+.Home .right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Home .right img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Wavy divider smoothing */
+.wave {
+  margin-top: -4rem;
+}
+
+/* Recipe cards section */
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+
+/* Recipe card item */
+.card {
+  background-color: #e0f7f1;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: #1d1d1d;
+}
+
+.card p {
+  color: #444;
+  font-size: 0.95rem;
+}
